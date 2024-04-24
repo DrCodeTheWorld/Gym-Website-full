@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #ff0000; /* Red text */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff; /* White background */
+    padding: 20px 0;
+    border-bottom: 2px solid #ff0000; /* Red border bottom */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ff0000; /* Red text */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    color: #ff0000; /* Red text */
+}
+
+.read-more-btn {
+    background-color: #ff0000; /* Red button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+footer {
+    background-color: #fff; /* White background */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #ff0000; /* Red border top */
+}
